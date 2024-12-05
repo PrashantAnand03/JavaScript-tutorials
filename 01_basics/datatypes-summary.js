@@ -47,13 +47,29 @@
 // console.log(myYoutubename);
 // console.log(anothername);
 
-let userOne = {
-    email : "user@google.com",
-    upiId: "user@ybl",
+// let userOne = {
+//     email : "user@google.com",
+//     upiId: "user@ybl",
+// }
+// let userTwo = userOne
+// userTwo.email = "prashant@google.com"
+
+// console.log(userOne.email)
+
+// Object declaration
+// const myObj = {
+//     name: "Prashant",
+//     age: 22,
+// }
+// console.log(myObj)
+// console.log(typeof myObj)
+
+
+//Function Declaration
+
+let carName = "TATA HARRIER"
+let carPrice = 1800000
+const myCars = function() {
+      console.log(`carName ${carName} and carPrice ${carPrice.toLocaleString('en-IN')}`);
 }
-let userTwo = userOne
-userTwo.email = "prashant@google.com"
-
-console.log(userOne.email)
-
-
+console.log(myCars())
