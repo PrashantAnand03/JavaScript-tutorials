@@ -17,12 +17,12 @@ const dc_Heros = ["Superman","flash","Batman"]
 // console.log(new_another_array)
 
 // !!! Important
-console.log(Array.isArray("Hitesh"))
-console.log(Array.from("Hitesh")) // helps to convert Different forms data into array
-console.log(Array.from({name: "Hitesh"}))
+console.log(Array.isArray("Hitesh")) // isArray -- For Check
+// console.log(Array.from("Hitesh")) // helps to convert Different forms data(List,object,string) into array
+// console.log(Array.from({name: "Hitesh"})) // batana hoga key ke liye bnaye ya values ke liye.
 
-const score1 = 100
-const score2 = 200
-const score3 = 300
+// const score1 = 100
+// const score2 = 200
+// const score3 = 300
 
-console.log(Array.of(score1,score2,score3))
+// console.log(Array.of(score1,score2,score3)) // of - returns new array from set of elements
