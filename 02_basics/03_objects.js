@@ -1,6 +1,8 @@
-/* Singleton -- whenever create using Literals no signleton formed, formed when created using Constructor.
+/* 2. Singleton -- whenever create using Literals no signleton formed, formed when created using Constructor.
    Object.create  --> constructor created singleton formed.*/
 
+
+   // Extra 
 // OBJECT DECLARATION SYNTAX
 
 // const myObj = {
@@ -9,6 +11,8 @@
 // }
 // console.log(typeof myObj)
 
+
+// 1.  Object Literal
 // const JsUser = {}  //Empty object
 
 // Note: Mostly we access Object value using dot pnly but in some case if 1. Value String 2. Value Symbol  -- We use [] 
