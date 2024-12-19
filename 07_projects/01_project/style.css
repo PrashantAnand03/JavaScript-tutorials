@@ -1,0 +1,22 @@
+
+
+.button{
+    width: 80px;
+    height: 50px;
+    padding: 5px;
+    background-color:whitesmoke;
+    color: black;
+    border: 3px solid black;
+    display:inline-block;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn-item{
+    text-align: center;
+    margin-top: 50px;
+}
+.para-item{
+    text-align: center;
+}
